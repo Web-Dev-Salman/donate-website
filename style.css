@@ -5,6 +5,14 @@
 h1, h2, h3, h4, h5, h6{
     font-family: 'Arima', cursive;
 }
+h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
 p{
     font-family: 'Martel', serif;
     font-size: 18px;
@@ -37,7 +45,7 @@ a{
     width: 1250px;
 }
 .banner h1{
-    font-size: 65px;
+    font-size: 45px;
     text-align: center;
     color: white;
     line-height: 1.2em;
@@ -57,7 +65,7 @@ a{
     justify-content: center;}
 .donate-section h1{
     display: block;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
 }
 .donate-section p{
@@ -120,4 +128,29 @@ input[type=submit] {
     border-radius: 5px;
     width: 160px;
     cursor: pointer;
-  }
+}
+.our-plan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }	
+
+.our-plan div {
+    width: 360px;
+    margin: 10px;
+}
+.our-plan-box{
+    padding: 80px 20px;
+}
+.first-box{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.second-box{
+ background-color: rgba(255, 89, 89, 0.1);
+}
+.third-box{
+    background-color: #FFF4D6;
+}
+.our-plan-box img, h2{
+    padding-bottom: 30px;
+}
